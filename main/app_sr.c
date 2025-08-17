@@ -60,18 +60,19 @@ void detect_Task(void *arg)
     esp_mn_commands_clear(); // 清除当前的命令词列表
     esp_mn_commands_add(1, "guan deng"); // 关灯
 
+    //红色
     esp_mn_commands_add(2, "hong se shan shuo"); // 闪烁
     esp_mn_commands_add(3, "hong se hu xi"); // 呼吸
     esp_mn_commands_add(4, "hong se chang liang"); // 常亮
-
+    //绿色
     esp_mn_commands_add(5, "lv se shan shuo"); // 闪烁
     esp_mn_commands_add(6, "lv se hu xi"); // 呼吸
     esp_mn_commands_add(7, "lv se chang liang"); // 常亮
-
+    //蓝色
     esp_mn_commands_add(8, "lan se shan shuo"); // 闪烁
     esp_mn_commands_add(9, "lan se hu xi"); // 呼吸
     esp_mn_commands_add(10, "lan se chang liang"); // 常亮
-
+    //彩色
     esp_mn_commands_add(11, "cai se jian bian"); // 彩色渐变
     esp_mn_commands_add(12, "cai se liu guang"); // 彩色流光
     esp_mn_commands_update(); // 更新命令词
