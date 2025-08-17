@@ -1,5 +1,7 @@
 /.cache/
 /.vscode/
+/build/
+/managed_components/
 
 # ESP-IDF 配置
 sdkconfig
