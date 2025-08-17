@@ -1,0 +1,6 @@
+/.cache/
+/.vscode/
+
+# ESP-IDF 配置
+sdkconfig
+sdkconfig.old
