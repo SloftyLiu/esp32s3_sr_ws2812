@@ -59,7 +59,6 @@ void detect_Task(void *arg)
     model_iface_data_t *model_data = multinet->create(mn_name, 6000);  // 设置唤醒后等待事件 6000代表6000毫秒
     esp_mn_commands_clear(); // 清除当前的命令词列表
     esp_mn_commands_add(1, "guan deng"); // 关灯
-
     //红色
     esp_mn_commands_add(2, "hong se shan shuo"); // 闪烁
     esp_mn_commands_add(3, "hong se hu xi"); // 呼吸
